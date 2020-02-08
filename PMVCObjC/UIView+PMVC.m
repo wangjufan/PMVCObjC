@@ -8,8 +8,18 @@
 
 #import "UIView+PMVC.h"
 
+#import <objc/runtime.h>
+#import <fishhook/fishhook.h>
+
 @implementation UIView(PMVC)
 
++ (void)load {
+    
+}
+
+- (id<PMVCProcessingProtocol>)nextPMVCProcessor {
+    return nil;
+}
 
 @end
 

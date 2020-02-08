@@ -12,6 +12,8 @@
 		0D6C6B8623EEC17800007473 /* PMVCObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6B7823EEC17800007473 /* PMVCObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D6C6B9123EEC1BB00007473 /* UIView+PMVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6B8F23EEC1BA00007473 /* UIView+PMVC.h */; };
 		0D6C6B9223EEC1BB00007473 /* UIView+PMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C6B9023EEC1BA00007473 /* UIView+PMVC.m */; };
+		3D61E92563F11AF2F1E81A6B /* Pods_PMVCObjCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3192CCFCF6F124A872D1F05A /* Pods_PMVCObjCTests.framework */; };
+		8C2F0C06275C53205A9015E1 /* Pods_PMVCObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B45B778C0EC7943925012B /* Pods_PMVCObjC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,13 @@
 		0D6C6B8523EEC17800007473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D6C6B8F23EEC1BA00007473 /* UIView+PMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+PMVC.h"; sourceTree = "<group>"; };
 		0D6C6B9023EEC1BA00007473 /* UIView+PMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+PMVC.m"; sourceTree = "<group>"; };
+		0D6C6B9623EED27700007473 /* PMVCProcessingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMVCProcessingProtocol.h; sourceTree = "<group>"; };
+		3192CCFCF6F124A872D1F05A /* Pods_PMVCObjCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMVCObjCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B45B778C0EC7943925012B /* Pods_PMVCObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMVCObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C574AD2538329DF99EA4576 /* Pods-PMVCObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMVCObjCTests.release.xcconfig"; path = "Target Support Files/Pods-PMVCObjCTests/Pods-PMVCObjCTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DE4CFDCC1E08ECA13709050 /* Pods-PMVCObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMVCObjC.release.xcconfig"; path = "Target Support Files/Pods-PMVCObjC/Pods-PMVCObjC.release.xcconfig"; sourceTree = "<group>"; };
+		D91AB3458FB0001D4FAAB894 /* Pods-PMVCObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMVCObjC.debug.xcconfig"; path = "Target Support Files/Pods-PMVCObjC/Pods-PMVCObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		E6DCF73E4A6549B9A32C7996 /* Pods-PMVCObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMVCObjCTests.debug.xcconfig"; path = "Target Support Files/Pods-PMVCObjCTests/Pods-PMVCObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2F0C06275C53205A9015E1 /* Pods_PMVCObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D6C6B7F23EEC17800007473 /* PMVCObjC.framework in Frameworks */,
+				3D61E92563F11AF2F1E81A6B /* Pods_PMVCObjCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +71,8 @@
 				0D6C6B7723EEC17800007473 /* PMVCObjC */,
 				0D6C6B8223EEC17800007473 /* PMVCObjCTests */,
 				0D6C6B7623EEC17800007473 /* Products */,
+				DE29258BC2254D9C848B5DA4 /* Pods */,
+				603EAD2A6B2F710F6338BD85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +92,7 @@
 				0D6C6B7923EEC17800007473 /* Info.plist */,
 				0D6C6B8F23EEC1BA00007473 /* UIView+PMVC.h */,
 				0D6C6B9023EEC1BA00007473 /* UIView+PMVC.m */,
+				0D6C6B9623EED27700007473 /* PMVCProcessingProtocol.h */,
 			);
 			path = PMVCObjC;
 			sourceTree = "<group>";
@@ -90,6 +104,27 @@
 				0D6C6B8523EEC17800007473 /* Info.plist */,
 			);
 			path = PMVCObjCTests;
+			sourceTree = "<group>";
+		};
+		603EAD2A6B2F710F6338BD85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40B45B778C0EC7943925012B /* Pods_PMVCObjC.framework */,
+				3192CCFCF6F124A872D1F05A /* Pods_PMVCObjCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE29258BC2254D9C848B5DA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D91AB3458FB0001D4FAAB894 /* Pods-PMVCObjC.debug.xcconfig */,
+				8DE4CFDCC1E08ECA13709050 /* Pods-PMVCObjC.release.xcconfig */,
+				E6DCF73E4A6549B9A32C7996 /* Pods-PMVCObjCTests.debug.xcconfig */,
+				4C574AD2538329DF99EA4576 /* Pods-PMVCObjCTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +146,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D6C6B8923EEC17800007473 /* Build configuration list for PBXNativeTarget "PMVCObjC" */;
 			buildPhases = (
+				E728F562C758762F53C8F74A /* [CP] Check Pods Manifest.lock */,
 				0D6C6B7023EEC17800007473 /* Headers */,
 				0D6C6B7123EEC17800007473 /* Sources */,
 				0D6C6B7223EEC17800007473 /* Frameworks */,
@@ -129,6 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D6C6B8C23EEC17800007473 /* Build configuration list for PBXNativeTarget "PMVCObjCTests" */;
 			buildPhases = (
+				F0628B7821501DB7EBE99153 /* [CP] Check Pods Manifest.lock */,
 				0D6C6B7A23EEC17800007473 /* Sources */,
 				0D6C6B7B23EEC17800007473 /* Frameworks */,
 				0D6C6B7C23EEC17800007473 /* Resources */,
@@ -195,6 +232,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E728F562C758762F53C8F74A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PMVCObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0628B7821501DB7EBE99153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PMVCObjCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D6C6B7123EEC17800007473 /* Sources */ = {
@@ -342,6 +426,7 @@
 		};
 		0D6C6B8A23EEC17800007473 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91AB3458FB0001D4FAAB894 /* Pods-PMVCObjC.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -364,6 +449,7 @@
 		};
 		0D6C6B8B23EEC17800007473 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE4CFDCC1E08ECA13709050 /* Pods-PMVCObjC.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -386,6 +472,7 @@
 		};
 		0D6C6B8D23EEC17800007473 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DCF73E4A6549B9A32C7996 /* Pods-PMVCObjCTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PMVCObjCTests/Info.plist;
@@ -402,6 +489,7 @@
 		};
 		0D6C6B8E23EEC17800007473 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C574AD2538329DF99EA4576 /* Pods-PMVCObjCTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PMVCObjCTests/Info.plist;

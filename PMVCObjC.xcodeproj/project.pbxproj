@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,20 @@
 		0D6C6B8623EEC17800007473 /* PMVCObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6B7823EEC17800007473 /* PMVCObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D6C6B9123EEC1BB00007473 /* UIView+PMVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6B8F23EEC1BA00007473 /* UIView+PMVC.h */; };
 		0D6C6B9223EEC1BB00007473 /* UIView+PMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C6B9023EEC1BA00007473 /* UIView+PMVC.m */; };
+		0D6C6B9823EEDD0300007473 /* PMVCCoordinatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6B9723EEDD0300007473 /* PMVCCoordinatorProtocol.h */; };
+		0D6C6B9D23EEE33800007473 /* PMVCCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6B9B23EEE33800007473 /* PMVCCoordinator.h */; };
+		0D6C6B9E23EEE33800007473 /* PMVCCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C6B9C23EEE33800007473 /* PMVCCoordinator.m */; };
+		0D6C6BA723EEED9D00007473 /* UIResponder+PMVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6BA523EEED9D00007473 /* UIResponder+PMVC.h */; };
+		0D6C6BA823EEED9D00007473 /* UIResponder+PMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C6BA623EEED9D00007473 /* UIResponder+PMVC.m */; };
+		0D6C6BAB23EEEDD500007473 /* UIViewController+PMVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6BA923EEEDD500007473 /* UIViewController+PMVC.h */; };
+		0D6C6BAC23EEEDD500007473 /* UIViewController+PMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C6BAA23EEEDD500007473 /* UIViewController+PMVC.m */; };
+		0D6C6BAF23EEEEAC00007473 /* PMVCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6BAD23EEEEAC00007473 /* PMVCObject.h */; };
+		0D6C6BB023EEEEAC00007473 /* PMVCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C6BAE23EEEEAC00007473 /* PMVCObject.m */; };
+		0D6C6BB323F0462C00007473 /* UITableView+PMVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6BB123F0462C00007473 /* UITableView+PMVC.h */; };
+		0D6C6BB423F0462C00007473 /* UITableView+PMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C6BB223F0462C00007473 /* UITableView+PMVC.m */; };
+		0D6C6BB723F0465100007473 /* UICollectionView+PMVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6BB523F0465100007473 /* UICollectionView+PMVC.h */; };
+		0D6C6BB823F0465100007473 /* UICollectionView+PMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C6BB623F0465100007473 /* UICollectionView+PMVC.m */; };
+		0D6C6BBA23F047BE00007473 /* PMVCTableViewMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C6BB923F047BE00007473 /* PMVCTableViewMediator.h */; };
 		3D61E92563F11AF2F1E81A6B /* Pods_PMVCObjCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3192CCFCF6F124A872D1F05A /* Pods_PMVCObjCTests.framework */; };
 		8C2F0C06275C53205A9015E1 /* Pods_PMVCObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B45B778C0EC7943925012B /* Pods_PMVCObjC.framework */; };
 /* End PBXBuildFile section */
@@ -35,7 +49,22 @@
 		0D6C6B8523EEC17800007473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D6C6B8F23EEC1BA00007473 /* UIView+PMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+PMVC.h"; sourceTree = "<group>"; };
 		0D6C6B9023EEC1BA00007473 /* UIView+PMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+PMVC.m"; sourceTree = "<group>"; };
-		0D6C6B9623EED27700007473 /* PMVCProcessingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMVCProcessingProtocol.h; sourceTree = "<group>"; };
+		0D6C6B9723EEDD0300007473 /* PMVCCoordinatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMVCCoordinatorProtocol.h; sourceTree = "<group>"; };
+		0D6C6B9923EEDD7900007473 /* PMVCMediatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMVCMediatorProtocol.h; sourceTree = "<group>"; };
+		0D6C6B9B23EEE33800007473 /* PMVCCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMVCCoordinator.h; sourceTree = "<group>"; };
+		0D6C6B9C23EEE33800007473 /* PMVCCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMVCCoordinator.m; sourceTree = "<group>"; };
+		0D6C6BA523EEED9D00007473 /* UIResponder+PMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+PMVC.h"; sourceTree = "<group>"; };
+		0D6C6BA623EEED9D00007473 /* UIResponder+PMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+PMVC.m"; sourceTree = "<group>"; };
+		0D6C6BA923EEEDD500007473 /* UIViewController+PMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PMVC.h"; sourceTree = "<group>"; };
+		0D6C6BAA23EEEDD500007473 /* UIViewController+PMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PMVC.m"; sourceTree = "<group>"; };
+		0D6C6BAD23EEEEAC00007473 /* PMVCObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMVCObject.h; sourceTree = "<group>"; };
+		0D6C6BAE23EEEEAC00007473 /* PMVCObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMVCObject.m; sourceTree = "<group>"; };
+		0D6C6BB123F0462C00007473 /* UITableView+PMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+PMVC.h"; sourceTree = "<group>"; };
+		0D6C6BB223F0462C00007473 /* UITableView+PMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PMVC.m"; sourceTree = "<group>"; };
+		0D6C6BB523F0465100007473 /* UICollectionView+PMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+PMVC.h"; sourceTree = "<group>"; };
+		0D6C6BB623F0465100007473 /* UICollectionView+PMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+PMVC.m"; sourceTree = "<group>"; };
+		0D6C6BB923F047BE00007473 /* PMVCTableViewMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMVCTableViewMediator.h; sourceTree = "<group>"; };
+		0D6C6BBB23F047E000007473 /* PMVCCollectionViewMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMVCCollectionViewMediator.h; sourceTree = "<group>"; };
 		3192CCFCF6F124A872D1F05A /* Pods_PMVCObjCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMVCObjCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B45B778C0EC7943925012B /* Pods_PMVCObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMVCObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C574AD2538329DF99EA4576 /* Pods-PMVCObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMVCObjCTests.release.xcconfig"; path = "Target Support Files/Pods-PMVCObjCTests/Pods-PMVCObjCTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,11 +117,10 @@
 		0D6C6B7723EEC17800007473 /* PMVCObjC */ = {
 			isa = PBXGroup;
 			children = (
+				0D6C6BA423EEED7400007473 /* Additions */,
+				0D6C6B9F23EEE33F00007473 /* PMVCObjC */,
 				0D6C6B7823EEC17800007473 /* PMVCObjC.h */,
 				0D6C6B7923EEC17800007473 /* Info.plist */,
-				0D6C6B8F23EEC1BA00007473 /* UIView+PMVC.h */,
-				0D6C6B9023EEC1BA00007473 /* UIView+PMVC.m */,
-				0D6C6B9623EED27700007473 /* PMVCProcessingProtocol.h */,
 			);
 			path = PMVCObjC;
 			sourceTree = "<group>";
@@ -104,6 +132,38 @@
 				0D6C6B8523EEC17800007473 /* Info.plist */,
 			);
 			path = PMVCObjCTests;
+			sourceTree = "<group>";
+		};
+		0D6C6B9F23EEE33F00007473 /* PMVCObjC */ = {
+			isa = PBXGroup;
+			children = (
+				0D6C6B9923EEDD7900007473 /* PMVCMediatorProtocol.h */,
+				0D6C6B9723EEDD0300007473 /* PMVCCoordinatorProtocol.h */,
+				0D6C6B9B23EEE33800007473 /* PMVCCoordinator.h */,
+				0D6C6B9C23EEE33800007473 /* PMVCCoordinator.m */,
+				0D6C6BAD23EEEEAC00007473 /* PMVCObject.h */,
+				0D6C6BAE23EEEEAC00007473 /* PMVCObject.m */,
+				0D6C6BB923F047BE00007473 /* PMVCTableViewMediator.h */,
+				0D6C6BBB23F047E000007473 /* PMVCCollectionViewMediator.h */,
+			);
+			path = PMVCObjC;
+			sourceTree = "<group>";
+		};
+		0D6C6BA423EEED7400007473 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				0D6C6B8F23EEC1BA00007473 /* UIView+PMVC.h */,
+				0D6C6B9023EEC1BA00007473 /* UIView+PMVC.m */,
+				0D6C6BA523EEED9D00007473 /* UIResponder+PMVC.h */,
+				0D6C6BA623EEED9D00007473 /* UIResponder+PMVC.m */,
+				0D6C6BA923EEEDD500007473 /* UIViewController+PMVC.h */,
+				0D6C6BAA23EEEDD500007473 /* UIViewController+PMVC.m */,
+				0D6C6BB123F0462C00007473 /* UITableView+PMVC.h */,
+				0D6C6BB223F0462C00007473 /* UITableView+PMVC.m */,
+				0D6C6BB523F0465100007473 /* UICollectionView+PMVC.h */,
+				0D6C6BB623F0465100007473 /* UICollectionView+PMVC.m */,
+			);
+			path = Additions;
 			sourceTree = "<group>";
 		};
 		603EAD2A6B2F710F6338BD85 /* Frameworks */ = {
@@ -123,7 +183,6 @@
 				E6DCF73E4A6549B9A32C7996 /* Pods-PMVCObjCTests.debug.xcconfig */,
 				4C574AD2538329DF99EA4576 /* Pods-PMVCObjCTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,7 +194,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D6C6B8623EEC17800007473 /* PMVCObjC.h in Headers */,
+				0D6C6BBA23F047BE00007473 /* PMVCTableViewMediator.h in Headers */,
+				0D6C6B9D23EEE33800007473 /* PMVCCoordinator.h in Headers */,
+				0D6C6BB723F0465100007473 /* UICollectionView+PMVC.h in Headers */,
+				0D6C6BB323F0462C00007473 /* UITableView+PMVC.h in Headers */,
+				0D6C6B9823EEDD0300007473 /* PMVCCoordinatorProtocol.h in Headers */,
 				0D6C6B9123EEC1BB00007473 /* UIView+PMVC.h in Headers */,
+				0D6C6BA723EEED9D00007473 /* UIResponder+PMVC.h in Headers */,
+				0D6C6BAF23EEEEAC00007473 /* PMVCObject.h in Headers */,
+				0D6C6BAB23EEEDD500007473 /* UIViewController+PMVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +236,7 @@
 				0D6C6B7A23EEC17800007473 /* Sources */,
 				0D6C6B7B23EEC17800007473 /* Frameworks */,
 				0D6C6B7C23EEC17800007473 /* Resources */,
+				F9BA1B8D26CBC6E1C02744E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,6 +346,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F9BA1B8D26CBC6E1C02744E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PMVCObjCTests/Pods-PMVCObjCTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PMVCObjCTests/Pods-PMVCObjCTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PMVCObjCTests/Pods-PMVCObjCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -285,6 +370,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6C6BAC23EEEDD500007473 /* UIViewController+PMVC.m in Sources */,
+				0D6C6BB423F0462C00007473 /* UITableView+PMVC.m in Sources */,
+				0D6C6BB023EEEEAC00007473 /* PMVCObject.m in Sources */,
+				0D6C6BB823F0465100007473 /* UICollectionView+PMVC.m in Sources */,
+				0D6C6BA823EEED9D00007473 /* UIResponder+PMVC.m in Sources */,
+				0D6C6B9E23EEE33800007473 /* PMVCCoordinator.m in Sources */,
 				0D6C6B9223EEC1BB00007473 /* UIView+PMVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

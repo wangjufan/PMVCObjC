@@ -8,6 +8,9 @@
 
 #import <XCTest/XCTest.h>
 
+#import "PMVCCoordinator.h"
+
+
 @interface PMVCObjCTests : XCTestCase
 
 @end
@@ -31,6 +34,8 @@
     // This is an example of a performance test case.
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
+        PMVCCoordinator *coordinater = [[PMVCCoordinator alloc] initWithChildCoordinators:nil];
+        
     }];
 }
 

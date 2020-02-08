@@ -13,13 +13,6 @@
 
 @implementation UIView(PMVC)
 
-+ (void)load {
-    
-}
-
-- (id<PMVCProcessingProtocol>)nextPMVCProcessor {
-    return nil;
-}
 
 @end
 

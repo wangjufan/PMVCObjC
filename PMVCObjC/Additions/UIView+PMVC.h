@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PMVCProcessingProtocol.h"
+#import "UIResponder+PMVC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView(PMVC)<PMVCProcessingProtocol>
+@interface UIView(PMVC)
 
 @end
 
